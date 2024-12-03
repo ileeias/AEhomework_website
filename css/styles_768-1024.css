@@ -1,0 +1,91 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lexend';
+    font-style: normal;
+    color: #000;
+    font-size: 16px;
+    margin: auto;
+    clip-path: inset(0 0 0 0);
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.2s linear;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+.container {
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}    
+.background__image {
+  display: none;
+}
+.recommendation__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 120px 0px 160px;
+}
+.main__nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+  }
+.main__list {
+    margin: 0;
+}
+.sell__container {
+    flex-direction: column;
+    gap: 20px;
+}
+.house_detail {
+    gap: 0;
+    grid-template-columns: 200px;
+}
+.more_container {
+    width: 100%;
+}
+.more_card-conteainer, .more_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.subscribe {
+    width: 100%;
+}
+.subscribe>img {
+    display: none;
+}
+.footer_container {
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+    padding: 70px;
+}
+.footer__logo {
+    display: flex;
+    gap: 50px;
+}
+}
